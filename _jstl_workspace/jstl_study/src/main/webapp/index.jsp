@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> Hello World~!! </h1>
-	<a href="step-1.jsp?age=18&name=홍길동">step-1. Jsp로 이동</a>
+	<h1>Hello World~!!</h1>
+	<a href="step-1.jsp?age=18&name=홍길동">step-1.jsp로 이동</a>
 </body>
 </html>

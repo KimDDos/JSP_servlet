@@ -8,27 +8,23 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-	<h2>제품명 : ${param.name } <br>
-	    원산지 : ${param.address }</h2>
-	<br>
+	상품명 : ${param.name } <br>
+	원산지 : ${param.address } <br>
 	<hr>
 	1. 스크립틀릿 방식으로 파라미터 전달받기 <br>
 	<%= request.getParameter("name") %> <br>
 	<%= request.getParameter("address") %> <br>
-	<!-- 자바 콘솔에서 받는 방식 -->
+	
 	<hr>
 	<br>
 	
-	2. EL 방식으로 파라미터 전달받기 <br>
-	${param.name }<br>
-	${param.address }<br>
-	<br>
-	<hr>
+	2.EL 방식으로 파라미터 전달받기 <br>
+	${param.name } <br>
+	${param.address } <br>
 	
 	<form action="step-3.jsp">
-		이름 : <input type="text" name="name"><br>
-		나이 : <input type="text" name="age"><br>
+		이름 : <input type="text" name="name"> <br>
+		나이 : <input type="text" name="age"> <br>
 		<button type="submit">전송</button>
 	</form>
 </body>
